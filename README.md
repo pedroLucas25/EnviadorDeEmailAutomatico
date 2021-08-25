@@ -1,5 +1,3 @@
-# EnviadorDeEmailAutomatico
-Projeto para envio de emails automaticos 
 
 Para o correto funcionamento do projeto, é necessário a instalação de algumas bibliotecas em python:
 -> Numpy
@@ -19,25 +17,6 @@ Para o correto funcionamento do projeto, é necessário a instalação de alguma
 *** github_username, repo_name, twitter_handle, email, project_title, project_description
 -->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -48,90 +27,57 @@ Para o correto funcionamento do projeto, é necessário a instalação de alguma
 
   <p align="center">
     Projeto para envio de emails automaticos
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
 </p>
 
 
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre o projeto
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+Este projeto é um programa de envio automático de e-mails que permite o envio de até 1500 e-mails diários utilizando contas google workspace.
 
 
-### Built With
+### Desenvolvido com:
 
-* []()
-* []()
-* []()
-
+* [Python](https://www.python.org/)
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Iniciando
 
-To get a local copy up and running follow these simple steps.
+### Pré-requisitos
 
-### Prerequisites
+Para o correto funcionamento do programa, é necessário o uso do sistema operacional Windows e a instalação de alguns componentes em seu computador:
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+1. Instale o [Viscual Code Studio](https://code.visualstudio.com/)
+2. Instale o [python](https://www.python.org/)
+3. Instale o navegador [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/)
+4. Baixe o [Gecko Driver](https://github.com/mozilla/geckodriver/releases)
 
-### Installation
+Após baixar o Gecko Driver, é necessário descompactar o arquivo e copiá-lo na pasta C: do Windows.
 
-1. Clone the repo
+
+### Instalação
+
+1. Instale todos os aplicativos baixados anteriormente;
+2. Abra o Windows Powershell
+3. Utilizando a linha de comando, digite o código:
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   pip install numpy
    ```
-2. Install NPM packages
+4. Utilizando a linha de comando, digite o código:
    ```sh
-   npm install
+   pip install pandas
    ```
-
+5. Utilizando a linha de comando, digite o código:
+   ```sh
+   pip install selenium
+   ```
+6. Utilizando a linha de comando, digite o código:
+   ```sh
+   pip install openpyxl
+   ```
 
 
 <!-- USAGE EXAMPLES -->
