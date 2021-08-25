@@ -26,7 +26,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Tela Principal][img.png]]
 
 Este projeto é um programa de envio automático de e-mails que permite o envio de até 1500 e-mails diários utilizando contas google workspace.
 
